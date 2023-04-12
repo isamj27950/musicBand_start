@@ -1,0 +1,145 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:root{
+    --bg-footer :#fc0;
+    --bg-dates : #000;
+    --bg-btn: #fc0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF;     
+}
+h3{
+    text-align: center;
+    font-weight: 400 ;
+    font-size: medium;
+    text-transform:uppercase;
+    white-space:pre;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 700;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+btn{
+    text-decoration: none;
+    background-color: #fc0;
+    color: #FFF;
+}
+/*header*/
+
+header{
+    position: relative;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+header img {
+    max-width: 2rem;
+    max-height: 2rem;
+}
+ header h1 {
+    font-size:large;
+    padding-top: 0.5rem;
+ }
+
+header i{
+    padding-top: 0.5rem;
+}
+.menu_display {
+    /*display: block;*/
+    opacity: 1;
+    top: 50px;
+    
+}
+header nav {
+    position: absolute;
+    right: 15px;
+    top: -250px;
+    padding: 1rem;
+    background-color: #FFF;
+    /*display: none;*/
+    opacity: 0;
+    transition: all 0.5s ease-out;
+}
+header nav ul li {
+    list-style: none;
+}
+/*Page1 bg image*/
+.bg_container{
+    background-image: url(../img/stage.jpg);
+    padding: 2.5rem;
+}
+.container{ 
+    background-color: #000;
+    color: #FFF;
+    width:calc(100% - 350px) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;   
+}
+.container .btn{
+    text-decoration: none;
+    font-size: small;
+    padding: 0.4rem 1rem;
+    background-color: #e8be14;
+    color: #000;
+}
+/*Page des icons*/
+.icon_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem;
+
+}
+.icon_list a{
+    background-color: #000;
+    color: #FFF;
+    text-decoration:none;
+    text-transform: uppercase;
+    padding: 0.8rem 1.2rem;
+}
+.icon_list i {
+    padding-right:2rem;
+    font-size: larger;
+}
+/*Page des artistes*/
+.artist {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+/*PAGE BLOG*/
+.blog{
+    background-color: #e8be14;
+    width: 100%;
+}
+
+/*Page New Album*/
+/*PAGE CONCERT*/
+.concert{
+    background-color: #000;
+    color: #FFF;
+}
+
+
+
+
+
+
+
+
